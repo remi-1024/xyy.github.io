@@ -10,10 +10,10 @@ body {
 	padding: 0 5%;
 	font-size: 100%;
 	font-family: "Noto Sans", sans-serif;
-	color: #FFFFFF;
+	color: #2196f3;
 
 	overflow: hidden;
-	background: #00C0FF;
+	background: #FFFFFF;
 	height: 100vh;
 
 }
@@ -61,7 +61,7 @@ spann {
             list-style: none;
             margin: 50px 0 30px 120px;
             padding-left: 30px;
-            border-left: 8px solid #FFFFFF;
+            border-left: 8px solid #2196f3;
         }
 
         #timeline li {
@@ -88,7 +88,7 @@ spann {
             left: -44px;
             width: 10px;
             height: 10px;
-            background: #2196f3;
+            background: rgb(37, 196, 37);
             border: 5px solid #FFFFFF;
             border-radius: 50%;
             display: block;
@@ -124,7 +124,7 @@ spann {
         }
 
         .content:after {
-            border-right-color: #2196f3;
+            border-right-color: #FFFFFF;
             border-width: 17px;
             top: 50%;
             margin-top: -17px;
@@ -158,12 +158,12 @@ spann {
         }
 
         .radio:checked+.relative .circle {
-            background: #f98262;
+            background: lightsalmon;
         }
 
         .radio:checked~.content {
             max-height: 180px;
-            border-color: #FFFFFF;
+            border-color: #2196f3;
             margin-right: 20px;
             transform: translateX(20px);
             transition: max-height 0.4s linear, border-color 0.5s linear, transform 0.2s linear;
@@ -171,7 +171,7 @@ spann {
 
         .radio:checked~.content p {
             max-height: 200px;
-            color: #FFFFFF;
+            color: #0092FF;
             transition: color 0.3s linear 0.3s;
         }
 
@@ -238,17 +238,17 @@ spann {
         }
 
         a:link {
-            color: white;
+            color: rgb(37, 196, 37);
         }
 
         a:visited {
-            color: white;
+            color: rgb(37, 196, 37);
         }
 
         a:hover {
-            color: lightsalmon;
+            color:lightsalmon;
         }
 
         a:active {
-            color: white;
+            color: #FFFFFF;
         }
